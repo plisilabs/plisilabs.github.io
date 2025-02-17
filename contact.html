@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - plisi labs</title>
+  <meta name="description" content="Get in touch with Plisi Labs for general inquiries, partnerships, or any questions." />
+
+  <style>
+    @font-face {
+      font-family: 'Lexend';
+      src: url('./fonts/static/Lexend-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Lexend';
+      src: url('./fonts/static/Lexend-Bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Lexend', sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a:hover { color: #ffffff; }
+
+    div.email > span {
+      display: none;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 24px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(10,10,10,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      z-index: 100;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.3px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .brand img {
+      height: 24px;
+      width: auto;
+      color: #ffffff;
+    }
+
+    nav {
+      display: flex;
+      gap: 24px;
+      font-size: 13px;
+    }
+
+    main {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 120px 32px 80px;
+    }
+
+    .hero {
+      margin-bottom: 80px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.6);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 999px;
+      padding: 6px 14px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: rgba(255,255,255,0.65);
+      max-width: 620px;
+      margin: 0 auto 40px;
+      line-height: 1.65;
+    }
+
+    .contact-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      padding: 32px;
+      margin-top: 32px;
+      margin-bottom: 0;
+    }
+
+    .contact-card h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+
+    .contact-card p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.8;
+    }
+
+    .contact-card strong {
+      color: rgba(255,255,255,0.85);
+    }
+
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.05);
+      padding: 32px;
+      margin-top: 40px;
+    }
+
+    .footer-content {
+      max-width: 880px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 16px;
+    }
+
+    .footer-links a {
+      color: rgba(255,255,255,0.6);
+      font-size: 12px;
+    }
+
+    .footer-links a:hover {
+      color: rgba(255,255,255,0.9);
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 20px 24px;
+      }
+
+      nav {
+        display: none;
+      }
+
+      main {
+        padding: 100px 24px 60px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="/" class="brand">
+      <img src="plisi-bottom.svg" alt="plisi labs logo" />
+      <span>plisi labs</span>
+    </a>
+    <nav>
+      <a href="/">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="badge">Get in Touch</div>
+      <h1>Contact</h1>
+      <p class="subtitle">
+        We'd love to hear from you. Reach out for general inquiries, partnerships, or any questions.
+      </p>
+    </section>
+
+    <section id="contact">
+      <div class="contact-card">
+        <h2>Get in touch</h2>
+        <p>
+          For general inquiries, partnerships, or any questions:
+          <br /><br />
+          <strong>Email:</strong> <div class="email">contact@<span>gknsp.</span>plisilabs.<span>example.</span>com</div>
+          <br />
+          <strong>Company:</strong> Plisi Labs LLC
+          <br />
+          <strong>Location:</strong> Prishtinë, Kosovë
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        Copyright © <span id="year"></span><noscript>2026</noscript> Plisi Labs LLC.
+      </div>
+      <div class="footer-links">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

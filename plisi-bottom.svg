@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320" fill="none">
+  <g
+    stroke="#ffffff"
+    stroke-width="28"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <!-- Outer silhouette -->
+    <path
+      d="M104 248
+         C148 132 198 64 256 64
+         C314 64 364 132 408 248"
+    />
+
+    <!-- Bottom outer rim -->
+    <path
+      d="M104 248
+         C170 292 342 292 408 248"
+    />
+
+    <!-- Inner brim curve -->
+    <path
+      d="M104 248
+         C178 214 334 214 408 248"
+    />
+  </g>
+</svg>

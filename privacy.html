@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – plisi labs</title>
+
+  <style>
+    @font-face {
+      font-family: 'Lexend';
+      src: url('./fonts/static/Lexend-Regular.ttf') format('truetype');
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: 'Lexend';
+      src: url('./fonts/static/Lexend-Bold.ttf') format('truetype');
+      font-weight: 700;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lexend', sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 120px 20px 60px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 32px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.85);
+      margin: 0 0 10px;
+    }
+
+    .meta {
+      font-size: 12px;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 24px;
+    }
+
+    a {
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+
+    div.email > span {
+      display: none;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 24px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(10,10,10,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      z-index: 100;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.3px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .brand img {
+      height: 24px;
+      width: auto;
+      color: #ffffff;
+    }
+
+    nav {
+      display: flex;
+      gap: 24px;
+      font-size: 13px;
+    }
+
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.05);
+      padding: 32px 20px;
+      margin-top: 80px;
+    }
+
+    .footer-content {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 16px;
+    }
+
+    .footer-links a {
+      color: rgba(255,255,255,0.6);
+      font-size: 12px;
+    }
+
+    .footer-links a:hover {
+      color: rgba(255,255,255,0.9);
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 20px 24px;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .container {
+        padding: 100px 20px 60px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="/" class="brand">
+      <img src="plisi-bottom.svg" alt="plisi labs logo" />
+      <span>plisi labs</span>
+    </a>
+    <nav>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="meta">Effective date: 2026-01-18</div>
+
+    <p>
+      Plisi Labs LLC (“we”, “us”, “our”) respects privacy and is committed to protecting
+      personal information.
+    </p>
+
+    <h2>Information We Collect</h2>
+    <p>
+      We may collect limited information necessary to provide our services, including
+      contact details, credential-related identifiers issued by authorized organizations,
+      and technical information required for security and operation.
+    </p>
+
+    <h2>How We Use Information</h2>
+    <p>
+      Information is used solely to operate and secure our services, manage credential
+      issuance and lifecycle events, authenticate users and administrators, and
+      communicate regarding service-related matters.
+    </p>
+
+    <h2>Data Sharing</h2>
+    <p>
+      We do not sell personal information. Information may be shared only with authorized
+      organizations, service providers acting on our behalf under confidentiality
+      obligations, or when required by law.
+    </p>
+
+    <h2>Data Security & Retention</h2>
+    <p>
+      Reasonable administrative, technical, and organizational safeguards are used to
+      protect information. Data is retained only as long as necessary for operational or
+      legal purposes.
+    </p>
+
+    <h2>Your Rights</h2>
+    <p>
+      Depending on jurisdiction, individuals may have rights to access, correct, or request
+      deletion of personal information.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For privacy inquiries, please <a href="/contact">contact us</a>.
+    </p>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        Copyright © <span id="year"></span><noscript>2026</noscript> Plisi Labs LLC.
+      </div>
+      <div class="footer-links">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
