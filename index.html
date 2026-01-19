@@ -48,8 +48,15 @@
     }
   </style>
 </head>
+
 <body>
   <div class="company-name">plisi labs</div>
-  <div class="copyright">Copyright © 2025 Plisi Labs LLC.</div>
+  <div class="copyright"> Copyright © 
+  <span id="year"></span>
+  <noscript>2026</noscript> 
+  Plisi Labs LLC.
+</div>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
 </body>
 </html>
